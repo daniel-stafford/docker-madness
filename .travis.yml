@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t dstafford/docker-react -f Dockerfile.dev . -t
+  - docker build -t dstafford/docker-madness -f Dockerfile.dev .
 
 script:
-  - docker run dstafford/docker-react CI=true yarn test
+  - docker run dstafford/docker-madness CI=true yarn test
