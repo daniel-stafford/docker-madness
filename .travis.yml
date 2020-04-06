@@ -14,7 +14,7 @@ deploy:
   app: "docker-mandess"
   env: "DockerMandess-env"
   bucket_name: "elasticbeanstalk-us-east-2-844337442446"
-  bucket_path: "dockermandess"
+  bucket_path: "docker-mandess"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
