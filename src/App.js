@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Docker!
+          Docker plus React plus AWS Beanstalk. Awwww yeah!!!
         </a>
       </header>
     </div>
