@@ -11,7 +11,7 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "dockermandess"
+  app: "docker-mandess"
   env: "DockerMandess-env"
   bucket_name: "elasticbeanstalk-us-east-2-844337442446"
   bucket_path: "dockermandess"
